@@ -479,6 +479,7 @@ body.active { overflow: hidden; }
   max-width: 150px;
   margin-inline: auto;
   margin-block-end: 20px;
+  --hover-bg-color: var(--radical-red);
 }
 
 .hero .wrapper {
@@ -1496,7 +1497,10 @@ body.active { overflow: hidden; }
     letter-spacing: 8px;
   }
 
-  .hero-banner { max-width: 290px; }
+  .hero-banner {
+    max-width: 290px;
+    --hover-bg-color: var(--radical-red);
+   }
 
   .hero .shape {
     display: block;
@@ -1673,7 +1677,10 @@ body.active { overflow: hidden; }
 
   .hero-text { --fs-10: 2.4rem; }
 
-  .hero-banner { max-width: max-content; }
+  .hero-banner {
+    max-width: max-content;
+    --hover-bg-color: var(--radical-red);           
+  }
 
 
 
