@@ -479,7 +479,7 @@ body.active { overflow: hidden; }
   max-width: 150px;
   margin-inline: auto;
   margin-block-end: 20px;
-  --hover-bg-color: var(--radical-red);
+  transition: 0.25s var(--cubic-out);
 }
 
 .hero .wrapper {
@@ -1219,7 +1219,6 @@ body.active { overflow: hidden; }
     transform: translateY(-50%);
     max-width: 200px;
     z-index: -1;
-    --hover-bg-color: var(--radical-red);
   }
 
   .hero .shape { display: none; }
@@ -1499,7 +1498,6 @@ body.active { overflow: hidden; }
 
   .hero-banner {
     max-width: 290px;
-    --hover-bg-color: var(--radical-red);
    }
 
   .hero .shape {
@@ -1678,8 +1676,7 @@ body.active { overflow: hidden; }
   .hero-text { --fs-10: 2.4rem; }
 
   .hero-banner {
-    max-width: max-content;
-    --hover-bg-color: var(--radical-red);           
+    max-width: max-content;         
   }
 
 
@@ -1727,3 +1724,5 @@ body.active { overflow: hidden; }
   .footer-top .container { max-width: 1200px; }
 
 }
+
+.hero-banner:is(:hover, :focus-visible) { color: var(--radical-red);}
