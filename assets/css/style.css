@@ -1218,6 +1218,7 @@ body.active { overflow: hidden; }
     transform: translateY(-50%);
     max-width: 200px;
     z-index: -1;
+    --hover-bg-color: var(--radical-red);
   }
 
   .hero .shape { display: none; }
