@@ -1725,4 +1725,6 @@ body.active { overflow: hidden; }
 
 }
 
-.hero-banner:is(:hover, :focus-visible) { color: var(--radical-red);}
+.hero-banner:hover{
+color: var(--radical-red);
+}
