@@ -1725,7 +1725,7 @@ body.active { overflow: hidden; }
 
 }
 
-.logo-link {
+#logo-link {
   display: inline-block; /* Ensures the anchor wraps tightly around the image */
   text-decoration: none; /* Removes default underline */
 }
