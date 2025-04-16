@@ -1725,4 +1725,15 @@ body.active { overflow: hidden; }
 
 }
 
-.hero-banner:is(:hover, :focus-visible) { color: var(--radical-red); }
+.logo-link {
+  display: inline-block; /* Ensures the anchor wraps tightly around the image */
+  text-decoration: none; /* Removes default underline */
+}
+
+.hero-banner {
+  transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.hero-banner:hover {
+  filter: hue-rotate(0deg) saturate(200%) brightness(80%); /* Adjusts colors to a red tint */
+}
