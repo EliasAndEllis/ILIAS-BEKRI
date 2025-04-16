@@ -1724,16 +1724,3 @@ body.active { overflow: hidden; }
   .footer-top .container { max-width: 1200px; }
 
 }
-
-#logo-link {
-  display: inline-block; /* Ensures the anchor wraps tightly around the image */
-  text-decoration: none; /* Removes default underline */
-}
-
-#sike {
-  transition: filter 0.3s ease; /* Smooth transition for hover effect */
-}
-
-#sike:hover {
-  filter: hue-rotate(0deg) saturate(200%) brightness(80%); /* Adjusts colors to a red tint */
-}
