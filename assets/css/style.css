@@ -1730,10 +1730,10 @@ body.active { overflow: hidden; }
   text-decoration: none; /* Removes default underline */
 }
 
-.hero-banner {
+#sike {
   transition: filter 0.3s ease; /* Smooth transition for hover effect */
 }
 
-.hero-banner:hover {
+#sike:hover {
   filter: hue-rotate(0deg) saturate(200%) brightness(80%); /* Adjusts colors to a red tint */
 }
