@@ -727,7 +727,7 @@ body.active { overflow: hidden; }
   bottom: 10%;
   left: 0;
   z-index: 1;
-  width: 10px;
+  width: 100px;
 }
 
 
@@ -1534,7 +1534,7 @@ body.active { overflow: hidden; }
 
   .about .container { gap: 120px; }
 
-  .about .shape-1 { width: 50%; }
+  .about .shape-1 { width: max-content; }
 
   .about .section-title { margin-block-end: 70px; }
 
